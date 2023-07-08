@@ -1,6 +1,10 @@
+
+
+
 /* common shared styles*/
 body{
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto Slab', serif;
 }
 .text-primary{
     color: #FD6E0A;
@@ -16,7 +20,7 @@ nav{
 .nav-title{
     color: #181818;
 font-size: 45px;
-font-weight: 800;
+font-weight: 700;
 
 }
 nav > ul{
@@ -41,7 +45,10 @@ color: white;
 font-size: 20px;
 font-weight: 700;
 padding: 15px 35px;
-
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 .header{
     background-color: #FFF8F3;
@@ -64,8 +71,9 @@ padding: 15px 35px;
     margin-bottom: 0;
 }
 .banner-title{
+    color: rgb(38, 38, 38);
     font-size: 85px;
-    font-weight: 700;
+    font-weight: 500;
 margin-top: 5px;
 margin-bottom: 20px;
 }
@@ -91,4 +99,11 @@ font-weight: 700;
     color: #757575;
 text-align: center;
 font-size: 18px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
